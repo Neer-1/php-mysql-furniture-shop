@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #0000006e;
+    border-radius: 10px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100000;
+    background: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4));
+    width: 90%;
+    top: 0;
+    left: 0; 
+    backdrop-filter: blur(100px);
+}
+nav img{
+    width: 200px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.text-box h2{
+    font-size: 45px;
+}
+.text-box i{
+    color: #ffffff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+nav .fa-solid{
+    display: none;
+}
+
+@media(max-width:825px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:-200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+
+}
+
+/* facilities */
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row-two{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+.facility-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.facility-col-one{
+    flex-basis: 100%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-top: -5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.facility-col-one:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.facility-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width:825px){
+    .row{
+        flex-direction: column;
+    }
+    .row-two{
+        flex-direction: column;
+    }
+    .testimonial-col img{
+        
+        margin-left: 0px;
+        margin-right: 15px;
+        
+    }
+    .cta h1{
+        font-size: 24px;
+    }
+    
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide all slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Style for images */
+img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+/* Navigation arrows */
+
+/* Container to position arrows */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  /* Styling for the slides */
+  .mySlides {
+    display: none;
+  }
+  
+  .slideshow-container img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Common styles for both previous and next arrows */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "prev" arrow on the left side */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next" arrow on the right side */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Add hover effect to the arrows */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Add fade animation */
+  .slideshow-container .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+/* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+
+/* Dots */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Gallery */
+
+.gallery-section {
+    padding: 20px;
+}
+
+.gallery-section h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-section p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gallery-section .row, 
+.gallery-section .row-two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.gallery-col {
+    position: relative;
+    flex: 1 1 30%; /* Adjust this to control the number of columns */
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-col img {
+    width: 100%;
+    height: 250px; /* Set a fixed height for uniform size */
+    object-fit: cover; /* Ensures the image fits the container while keeping its aspect ratio */
+    transition: transform 0.3s ease;
+}
+
+.gallery-col .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-col:hover img {
+    transform: scale(1.1); /* Adds a zoom effect on hover */
+}
+
+.gallery-col:hover .layer {
+    opacity: 1; /* Shows the overlay on hover */
+}
+
+.gallery-col .layer h3 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* .gallery-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px ;
+}
+
+.gallery-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.gallery-col img{
+    width: 100%;
+    display: block;
+} */
+
+/* Testimonials */
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.5s;
+}
+.testimonial-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonial-col p{
+    padding: 0;
+}
+.testimonial-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+.testimonial-col .fa-star,.fa-solid{
+    color: #f44336;
+}
+.cta{
+    margin: 20px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/image.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa-brands{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 25px ;
+    text-align: center;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    
+}
+.about-col iframe{
+    width: 100%;
+    border-radius: 50px;
+}
+.about-col h1{
+    padding-top: 0;
+    
+}
+.about-col p{
+    padding: 15px 0 25px;
+    text-align: justify;
+}
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+    
+}
+.red-btn:hover{
+    color: #fff;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px ;
+    text-align: center;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+    
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.contact-col div .fa-solid{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+
+}
+
+.contact-col div p{
+    padding: 0;
+    text-align: left;
+}
+.contact-col div h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+    text-align: left;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.contact-col p{
+    text-align: left;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+    
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #857b7b;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+}
+
+/* sidebar */
+
+/* .sidebar {
+    margin-top: 80px;
+    width: 10%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 0;
+} */
+
+/* Sidebar container */
+
+.sidebar {
+    width: 250px;
+    background-color: #f4e1d2; 
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    height: 100%;
+    overflow-y: auto; 
+
+}
+
+/* Search bar styling */
+#searchBar {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d2a679; 
+    border-radius: 5px;
+    font-size: 16px;
+    color: #4d3319; 
+    background-color: #fff;
+}
+
+/* Sidebar list */
+#sidebarLinks {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Sidebar links */
+#sidebarLinks li {
+    margin-bottom: 15px;
+}
+
+#sidebarLinks li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4d3319; 
+    background-color: #d2a679; 
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#sidebarLinks li a:hover {
+    background-color: #b3864d; 
+    color: #fff; 
+}
+
+/* Search result text */
+#searchResult {
+    font-size: 16px;
+    color: #804000; 
+    margin-top: 20px;
+}
+
+/* Scrollbar styling for sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #b3864d; 
+    border-radius: 10px;
+}
+
+
+/* Shop */
+
+/* Main content area */
+.main-content {
+    margin-top: 100px;    
+    padding: 20px;
+    background-color: #f8f0e3; /* Very light brownish background */
+    color: #4d3319; /* Dark brown text */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Category section */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #b3864d; /* Warm brown for section headers */
+    border-bottom: 2px solid #d2a679; /* Underline with lighter brown */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Product container */
+.product {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle hover effect */
+}
+
+/* Product image */
+.product img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  
+}
+
+/* Product description */
+.description {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.description h3 {
+    font-size: 20px;
+    color: #804000; /* Darker brown for product titles */
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #4d3319; /* Dark brown for text */
+}
+
+/* Price styling */
+.description p:nth-of-type(2) {
+    font-weight: bold;
+    color: #b3864d; /* Highlight price with warm brown */
+}
+
+/* Add to Cart button */
+button {
+    background-color: #b3864d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #804000; /* Darker brown on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product img {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 2px solid #d2a679;
+    }
+
+    .main-content {
+        margin-left: 0; /* Adjust for smaller screens */
+    }
+}
+
+
+
+/* .main-content {
+    margin-top: 80px;
+    margin-left: 22%;
+    width: 60%;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+} */
+
+
+/* Cart Wizard */
+
+/* Wizard (cart sidebar) styling */
+.wizard {
+    margin-top: 85px;
+    width: 250px; /* Set a more user-friendly width */
+    background-color: #f8f0e3; /* Light brownish background */
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-left: 3px solid #b3864d; /* Brown border for distinction */
+    overflow-y: auto;
+    transition: all 0.3s ease-in-out; /* Smooth transitions for later adjustments */
+}
+
+/* Wizard header */
+.wizard h3 {
+    color: #804000; /* Dark brown header text */
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Cart items */
+.wizard .cart-item {
+    background-color: #fff; /* White background for cart items */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for items */
+    font-size: 16px;
+}
+
+/* Cart item text */
+.wizard .cart-item p {
+    color: #4d3319; /* Dark brown text */
+    margin-bottom: 5px;
+}
+
+/* Cart total section */
+.wizard .cart-total {
+    font-size: 18px;
+    color: #b3864d; /* Highlight total with warm brown */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Checkout button */
+.wizard button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b3864d; /* Brownish button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.wizard button:hover {
+    background-color: #804000; /* Darker brown on hover */
+}
+
+/* Optional scrollbar styling */
+.wizard::-webkit-scrollbar {
+    width: 8px;
+}
+
+.wizard::-webkit-scrollbar-thumb {
+    background-color: #b3864d; /* Match scrollbar to the brownish theme */
+    border-radius: 10px;
+}
+
+
+/* .wizard {
+    margin-top: 80px;
+    width: 13%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+} */
+/* Styling for the user details section */
+/* User Details Section */
+.user-details {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the section */
+}
+
+.user-details h2 {
+    font-size: 2em; /* Larger font size for heading */
+    margin-bottom: 20px;
+    color: #333; /* Dark color for text */
+    text-align: center; /* Center the heading */
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Space between items */
+}
+
+.user-item {
+    padding: 10px; /* Padding around each item */
+    border: 1px solid #ddd; /* Light border for definition */
+    border-radius: 5px; /* Rounded corners for items */
+    background-color: #fff; /* White background for each item */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.user-item:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+}
+
+.user-item strong {
+    color: #555; /* Darker color for labels */
+}
+
+.user-item span {
+    margin-left: 5px; /* Space between label and value */
+    color: #333; /* Dark color for the value */
+}
+
+
+/* Styling for the cart items grid */
+/* General styles for the cart items */
+.cart-items {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cart-items h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Dark color for text */
+}
+
+.cart-items .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between grid items */
+}
+
+.cart-items .cart-product {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* White background for product card */
+    border-radius: 8px;
+    padding: 15px;
+    transition: transform 0.2s; /* Smooth scale transition on hover */
+    border: 1px solid #ddd; /* Light border for definition */
+}
+
+.cart-items .cart-product:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.cart-items .product-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cart-items .product-info {
+    flex-grow: 1; /* Allow this section to take remaining space */
+}
+
+.cart-items .product-name {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.cart-items .product-description {
+    font-size: 0.9em;
+    color: #666; /* Lighter color for description */
+    margin: 5px 0;
+}
+
+.cart-items .product-price {
+    font-weight: bold;
+    color: #e74c3c; /* Highlight price in red */
+}
+
+.cart-items .product-quantity {
+    margin: 10px 0;
+}
+
+.cart-items .remove-btn {
+    background-color: #e74c3c; /* Red background for remove button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.cart-items .remove-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0e3; /* Light brownish background */
+    color: #4d3319; /* Dark brown text for readability */
+}
+
+/* Main container */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styling */
+h1 {
+    font-size: 36px;
+    color: #804000; /* Darker brown for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #4d3319; /* Use the dark brown for paragraph text */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Links styling */
+.reg a {
+    color: #b3864d; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.reg a:hover {
+    color: white; /* Change text color on hover */
+    background-color: #b3864d; /* Background color on hover */
+}
+
+/* Container for the page content */
+.container {
+    background-color: white; /* White background for contrast */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Style the icon (if you use it elsewhere on the page) */
+/* img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px;
+} */
+
+/* Button style (Optional if needed for future buttons) */
+button {
+    background-color: #b3864d; /* Brown button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #804000; /* Darker brown on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Registration form */
+
+/* General form styling */
+form {
+    background-color: #f8f0e3; /* Light beige background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #b3864d; /* Soft brown border */
+}
+
+/* Label styling */
+form label {
+    display: block;
+    font-size: 18px;
+    color: #4d3319; /* Dark brown text for labels */
+    margin-bottom: 8px;
+}
+
+/* Input field styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #4a2e19; /* Darker brown text in input */
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    border: 1px solid #b3864d; /* Brown focus border */
+    outline: none;
+}
+
+/* Button styling */
+form button[type="submit"] {
+    background-color: #b3864d; /* Brown button background */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Full-width button */
+}
+
+form button[type="submit"]:hover {
+    background-color: #804000; /* Darker brown on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Validation status span styling */
+form span {
+    font-size: 14px;
+    color: #b3864d;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    form button[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+/* Login */
+
+.login-form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 5px; /* Round the corners of the form */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.login-form h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.login-form label {
+    display: block; /* Make labels take full width */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.login-form button:hover {
+    background-color: #0056b3; 
+}
+
+/*Back button */
+
+.back-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b3864d; /* Button color */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #804000;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em; 
+    margin-top: 5px; 
+}
+
+
+
+
+
+/* System typography: no external font download. */
+body, input, button, textarea, select { font-family: Arial, Helvetica, sans-serif; }

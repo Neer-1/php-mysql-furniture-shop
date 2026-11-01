@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+*.sql
+*.pdf
+*.mkv
+*.mp4
+*.mov
+grades*
+*grade*
+*.log
+*.bak
+*.backup
+TestCV.pdf
+video presentation of the website.mkv
+# Public synthetic schema only; keep all real database exports excluded.
+!schema.synthetic.sql
+.local/

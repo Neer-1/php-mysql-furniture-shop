@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chisel</title>
+    <link rel="icon" href="images/brand-icon.png" sizes="500x500">
+    <meta name="description" content="Web Design and Development Expertise to help you digitalize your personal or business ideas" />
+    <meta name="keywords" content="Website, Web Development, Web Design, Web Application, Web technologies">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/brand-mark.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <button type="button" onclick="hideMenu()" aria-label="Close navigation">Close</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.php">shop</a></li>
+                    <li><a href="#about">About Shop</a></li>
+                    <li><a href="#facilities">Designs</a></li>
+                    <li><a href="#gallery">Catalog</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contactus">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="admin_login.php">Admin</a></li>
+                </ul>
+            </div>
+            <button type="button" onclick="showMenu()" aria-label="Open navigation">Menu</button>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to Chisel...</h1>
+            <h2>your very own online furniture shop</h>
+            <p># Designing bespoke furniture pieces that bring comfort and style to every space <br>
+               # Crafting timeless collections with premium materials and expert craftsmanship <br>
+               # Enhancing homes with functional, elegant furniture designed to last
+            </p>
+            <h3> Unlock the full potential of your home – discover our craftsmanship </h3>
+
+           
+            <a href="#facilities" class="hero-btn"></i> Find Yours </a>
+        </div>
+
+    </section >  
+
+
+    <section class="about-us" id="about">
+        <h1>About Shop</h1>
+        <div class="row">
+            <div class="about-col">
+                <h1>Chisel Furniture Shop</h1>
+                <p>
+                    Chisel is a premier furniture shop dedicated to crafting exceptional pieces that blend style and 
+                    functionality. Our collection features a wide range of meticulously designed furniture, from 
+                    elegant sofas to timeless dining sets, all made with high-quality materials that ensure durability 
+                    and comfort. At Chisel, we believe that every piece of furniture should not only enhance the 
+                    aesthetic of your home but also reflect your personal style.
+                </p>   
+                <p>
+                    Our skilled artisans are passionate about woodworking, employing traditional techniques 
+                    alongside modern innovations to create unique, handcrafted items. Whether you're looking to 
+                    furnish a cozy apartment or a spacious home, Chisel offers bespoke solutions tailored to your 
+                    needs. Experience the perfect balance of artistry and practicality, and transform your living 
+                    spaces into inviting havens with our thoughtfully curated selection. 
+                </p>
+  
+                <a href="#contactus" class="hero-btn red-btn cv-btn">Download catalog pdf</a>
+            </div>
+            <div class="about-col">
+                <p class="video-placeholder">Coursework video omitted: external content and rights have not been cleared.</p>
+            </div>
+        </div>
+   <section class="facilities" id="facilities">
+    <h1>Designs</h1>
+    <p>This section features curated, pre-structured furniture arrangements, designed to inspire and help you 
+        visualize your ideal space. Discover ready-made layouts for any room!</p>
+
+    <div class="slideshow-container">
+
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+            <a href="shop.php#fullrooms" target="_blank" rel="noopener noreferrer">
+                <img src="images/slide1.jpg" style="width:100%" alt="Image 1">
+                <div class="desc">kitchen</div>
+            </a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <a href="shop.php#fullrooms" target="_blank" rel="noopener noreferrer">
+                <img src="images/slide3.jpg" style="width:100%" alt="Image 2">
+                <div class="desc">livingroom</div>
+            </a>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <a href="shop.php#fullrooms" target="_blank" rel="noopener noreferrer">
+                <img src="images/slide2.jpg" style="width:100%" alt="Image 3">
+                <div class="desc">diningroom</div>
+            </a>
+        </div>
+
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots for navigation -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+</section>
+
+    <section class="gallery-section" id="gallery">
+        <h1>Projects</h1>
+        <p>Here are a few projects I've worked on. Want to see more? <a href="#contactus">Contact me !</a></p>
+        <div class="row">
+            <div class="gallery-col">
+                <img src="./images/gallery_livingroom.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#livingroom" class="modal-trigger">
+                        <h3>Living rooms</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="./images/gallery_kitchen.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#kitchen" class="modal-trigger">
+                        <h3>Kitchens</h3>
+                    </a>       
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="./images/gallery_dinig.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#diningroom" class="modal-trigger">
+                        <h3>Dining Rooms</h3>
+                    </a>                    
+                </div>
+            </div>            
+        </div>
+        <div class="row-two">
+            <div class="gallery-col">
+                <img src="./images/gallery_bedroom.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#bedroom" class="modal-trigger">
+                        <h3>bedrooms</h3>
+                    </a>                    
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="./images/gallery_office.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#office" class="modal-trigger">
+                        <h3>Offices</h3>
+                    </a>                    
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="./images/gallery_bathroom.jpg" alt="">
+                <div class="layer">
+                    <a href="shop.php#bathroom" class="modal-trigger">
+                        <h3>Bathrooms</h3>
+                    </a>                    
+                </div>
+            </div>      
+        </div>
+   </div>
+
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h1>People I've worked with have said some nice things...</h1>
+        <p>Establishing a Reputation of Trust</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <span class="demo-avatar" aria-label="Demo testimonial">Demo</span>
+                    <div>
+                        <p>Reference statement omitted pending publication consent.</p>
+                        <h3>Reference withheld</h3>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star half stroke</span>
+                    </div>
+            </div>
+            <div class="testimonial-col">
+                <span class="demo-avatar" aria-label="Demo testimonial">Demo</span>
+                    
+                    <div>
+                        <p>Reference statement omitted pending publication consent.</p>
+                        <h3>Reference withheld</h3>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                    </div>
+            </div>
+        </div>
+        <div class="row-two">
+            <div class="testimonial-col">
+                <span class="demo-avatar" aria-label="Demo testimonial">Demo</span>
+                <div>
+                    <p>Reference statement omitted pending publication consent.</p>
+                        <h3>Reference withheld</h3>
+                    <span>star</span>
+                    <span>star</span>
+                    <span>star</span>
+                    <span>star</span>
+                    <span>star</span>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <span class="demo-avatar" aria-label="Demo testimonial">Demo</span>
+                <div>
+                    <p>Reference statement omitted pending publication consent.</p>
+                        <h3>Reference withheld</h3>
+                    <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star</span>
+                        <span>star half stroke</span>
+                </div>   
+            </div>       
+        </div>
+
+    </section>
+
+    <section class="cta">
+        <h1>Contact Me Directly For Exclusive Dialogue<br> Anywhere in the #World.</h1>
+    </section>
+
+    <section class="contact" id="contactus">
+        <h1>Contact Me</h1>
+            <div class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <span>house user</span>
+                            <span>
+                                <h5>Address</h5>
+                                <p>Withheld from staging copy.</p>
+                            </span>
+                        </div>
+                        <div>
+                            <span>phone</span>
+                            <span>
+                                <h5>Phone</h5>
+                                <p>Withheld from staging copy.</p>
+                            </span>
+                        </div>
+                        <div>
+                            <span>envelope</span>
+                            <span>
+                                <h5>Email</h5>
+                                <p>Withheld from staging copy.</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form id="myForm" action="#" onsubmit="return false;">
+                            <p>Demonstration only. This form sends nothing; personal-data entry is disabled.</p>
+                            <fieldset disabled style="border:0;padding:0;margin:0">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                            <input type="tel" name="mobile" placeholder="Enter Your Mobile Number" required>
+                            <textarea rows="5" name="message" placeholder="Message"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Enquire Now</button>
+                        </fieldset>
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    
+
+    <section class="footer">
+        <h4>Get in Touch through social medias</h4>
+        <p>To provide an insightful conversation and an inovative solutions</p>
+        <div class="icons">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com"><span>facebook</span></a></i>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com"><span>instagram</span></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com"><span>youtube</span></a>
+            <p>Social profile links withheld pending owner review.</p>
+        </div>
+        <p>Chisel attribution withheld pending review | 2024</p>
+        
+    </section>
+    <div class="icon up-arrow">
+        <a href="index.html"><span>brand</span> </a>
+    </div>
+
+    <script src="script.js"></script>
+        
+  </body>
+</html>

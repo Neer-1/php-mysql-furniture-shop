@@ -1,0 +1,236 @@
+[
+  {
+    "path": "images/bathroom_bathroomcabints.jpg",
+    "sha256": "7dfc9328d6fa319423dccab43becb9f8ae1566c36f93e1e4e9cdd50333d956af",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/bedroom_bed.jpg",
+    "sha256": "bd20985001d359152b077aa976042b66688e951eb4a2b80c644730034bd82fbf",
+    "dimensions": [
+      800,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/chisel-background.webp",
+    "sha256": "90793469af2f63652a55a285559a8848ad693a53335e7548561707ae51c28172",
+    "dimensions": [
+      1200,
+      686
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/diningroom_diningtable.jpg",
+    "sha256": "24d1346d143796fdc6093ac654b96e5ae23051c807afceafab56c688c5fe1f72",
+    "dimensions": [
+      960,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/fullrooms_livingroom.jpg",
+    "sha256": "3072ce89b19eeb238c8dde370c33cbb2fb7387d77d4e6df27f988c64fe36ffc8",
+    "dimensions": [
+      829,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_bathroom.jpg",
+    "sha256": "12ea6f9d46a8a932cb6b1f0d2acb58d3a171b24fa127dd9cc6d5333b33da61ca",
+    "dimensions": [
+      1200,
+      795
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_bedroom.jpg",
+    "sha256": "27d2b8975c76c4d17c975d7e0ea553d15e1235fa7064236864a8f4668be0304f",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_dinig.jpg",
+    "sha256": "2dccc493f4425a360ea556bf739519aaccca9dbfeefd7531c40c356b29b42b26",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_kitchen.jpg",
+    "sha256": "61b0322bad457f8d813f2c71232cda0ec9296735c3b568c99c7e8ffd69b041b7",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_livingroom.jpg",
+    "sha256": "ec19f71aa7468d869092bb0b9adcb43e6b7370615f47f1cf8670cd4b926d709d",
+    "dimensions": [
+      1200,
+      900
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/gallery_office.jpg",
+    "sha256": "6a5b63690c5e5c9c949e6c3b367d15e9b445f7f97f8833195ff9f98b5226c80e",
+    "dimensions": [
+      1200,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/homehome.png",
+    "sha256": "26c1c36591be6b9479086f14233dbf06760e82f720de36d1807f18e8eb90a61f",
+    "dimensions": [
+      1200,
+      675
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/image.png",
+    "sha256": "d9f7ac5695c37769dea6c584fba5768e79519bb3235e6ecb020df25116b3b5cd",
+    "dimensions": [
+      1200,
+      675
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/contact-placeholder.webp",
+    "sha256": "28bb49f92ff2549f55c501a04bb1d74ddb3e25b2380610908b2ec18c22dd222b",
+    "dimensions": [
+      796,
+      218
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/kitchen_kitchencabinerts.png",
+    "sha256": "f35d0d05eb4c6730c7a77cfecc21192a07a11b6e092fdf100e1d3cc5d471692c",
+    "dimensions": [
+      640,
+      433
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/livingroom_armchair.jpg",
+    "sha256": "dbba68d6c32e8d8c1c16cea2f323bf601a329b89b930b17049280e15aa04125c",
+    "dimensions": [
+      800,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/livingroom_bookshelf.jpg",
+    "sha256": "371a619db2486af74bb15a572429bc636c3cb407be3a5abecf497a4eb813b2b9",
+    "dimensions": [
+      1200,
+      830
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/livingroom_coffeetable.jpg",
+    "sha256": "4be587846699c22b9baa318da4c17d07d85f248bdbc64c26f6fff5f83c59a8b1",
+    "dimensions": [
+      800,
+      1200
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/livingroom_EC.jpg",
+    "sha256": "351626ecbd678dd40862d0ff0135277b5ecbf25456c68a554b0de219b768232d",
+    "dimensions": [
+      1200,
+      799
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/livingroom_sofa.jpg",
+    "sha256": "619e1f4a8a76d70ad324d5da75d1e08ea9ea7ae056df45319048da89da65158f",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/office_officetable.jpg",
+    "sha256": "56921cdf049160ade3ec91976ad797b1580ece76e5ff2cab5e501b7a2383f09d",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/brand-icon.png",
+    "sha256": "0a299fca9aa0c1c5211087125457c5741bfcccb4d036625521c9f8e0b602acae",
+    "dimensions": [
+      277,
+      121
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/brand-mark.png",
+    "sha256": "9be1c3a4ddcc3edda529828c97757b447e7f1b35127efebea7aa289e01a2dfc1",
+    "dimensions": [
+      274,
+      84
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/slide1.jpg",
+    "sha256": "2228ee9b2e2bded6b6f2d8b785a3d22fe48d483b8582ee97440a8bad7135522e",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/slide2.jpg",
+    "sha256": "6b87204ade3b13eea109d68224967ac3bdbc25d1e3b2d47fb04d0ec3537ae7c1",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  },
+  {
+    "path": "images/slide3.jpg",
+    "sha256": "9a711e75b1d3e73877ee0284188bedd4ae2e84a1ff977dfe72f8df37708b99b7",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "provenance": "Original Codex-assisted geometric placeholder generated locally; no original image pixels or third-party fonts used."
+  }
+]
